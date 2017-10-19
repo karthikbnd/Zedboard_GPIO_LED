@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Oct 11 15:40:11 2017
+# Process ID: 12316
+# Current directory: C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1
+# Command line: vivado.exe -log design_gpio_led_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_gpio_led_wrapper.tcl -notrace
+# Log file: C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/design_gpio_led_wrapper.vdi
+# Journal file: C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source design_gpio_led_wrapper.tcl -notrace

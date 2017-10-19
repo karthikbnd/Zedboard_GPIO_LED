@@ -1,0 +1,461 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Oct 11 15:40:11 2017
+# Process ID: 12316
+# Current directory: C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1
+# Command line: vivado.exe -log design_gpio_led_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_gpio_led_wrapper.tcl -notrace
+# Log file: C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/design_gpio_led_wrapper.vdi
+# Journal file: C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source design_gpio_led_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.srcs/sources_1/bd/design_gpio_led/ip/design_gpio_led_axi_gpio_0_0/design_gpio_led_axi_gpio_0_0.dcp' for cell 'design_gpio_led_i/axi_gpio_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.srcs/sources_1/bd/design_gpio_led/ip/design_gpio_led_processing_system7_0_0/design_gpio_led_processing_system7_0_0.dcp' for cell 'design_gpio_led_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.srcs/sources_1/bd/design_gpio_led/ip/design_gpio_led_rst_ps7_0_100M_0/design_gpio_led_rst_ps7_0_100M_0.dcp' for cell 'design_gpio_led_i/rst_ps7_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.srcs/sources_1/bd/design_gpio_led/ip/design_gpio_led_auto_pc_0/design_gpio_led_auto_pc_0.dcp' for cell 'design_gpio_led_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'design_gpio_led_i/axi_gpio_0/gpio2_io_i[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/.Xil/Vivado-12316-KAB-nb-t470p/dcp_3/design_gpio_led_axi_gpio_0_0.edf:9467]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'design_gpio_led_i/axi_gpio_0/gpio2_io_i[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/.Xil/Vivado-12316-KAB-nb-t470p/dcp_3/design_gpio_led_axi_gpio_0_0.edf:9474]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'design_gpio_led_i/axi_gpio_0/gpio2_io_i[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/.Xil/Vivado-12316-KAB-nb-t470p/dcp_3/design_gpio_led_axi_gpio_0_0.edf:9481]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'design_gpio_led_i/axi_gpio_0/gpio2_io_i[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/.Xil/Vivado-12316-KAB-nb-t470p/dcp_3/design_gpio_led_axi_gpio_0_0.edf:9488]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'design_gpio_led_i/axi_gpio_0/gpio2_io_i[4]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/.Xil/Vivado-12316-KAB-nb-t470p/dcp_3/design_gpio_led_axi_gpio_0_0.edf:9495]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'design_gpio_led_i/axi_gpio_0/gpio2_io_i[5]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/.Xil/Vivado-12316-KAB-nb-t470p/dcp_3/design_gpio_led_axi_gpio_0_0.edf:9502]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'design_gpio_led_i/axi_gpio_0/gpio2_io_i[6]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/.Xil/Vivado-12316-KAB-nb-t470p/dcp_3/design_gpio_led_axi_gpio_0_0.edf:9509]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'design_gpio_led_i/axi_gpio_0/gpio2_io_i[7]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/.Xil/Vivado-12316-KAB-nb-t470p/dcp_3/design_gpio_led_axi_gpio_0_0.edf:9516]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'design_gpio_led_i/axi_gpio_0/gpio_io_o[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/.Xil/Vivado-12316-KAB-nb-t470p/dcp_3/design_gpio_led_axi_gpio_0_0.edf:9524]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'design_gpio_led_i/axi_gpio_0/gpio_io_o[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/.Xil/Vivado-12316-KAB-nb-t470p/dcp_3/design_gpio_led_axi_gpio_0_0.edf:9531]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'design_gpio_led_i/axi_gpio_0/gpio_io_o[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/.Xil/Vivado-12316-KAB-nb-t470p/dcp_3/design_gpio_led_axi_gpio_0_0.edf:9538]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'design_gpio_led_i/axi_gpio_0/gpio_io_o[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/.Xil/Vivado-12316-KAB-nb-t470p/dcp_3/design_gpio_led_axi_gpio_0_0.edf:9545]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'design_gpio_led_i/axi_gpio_0/gpio_io_o[4]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/.Xil/Vivado-12316-KAB-nb-t470p/dcp_3/design_gpio_led_axi_gpio_0_0.edf:9552]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'design_gpio_led_i/axi_gpio_0/gpio_io_o[5]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/.Xil/Vivado-12316-KAB-nb-t470p/dcp_3/design_gpio_led_axi_gpio_0_0.edf:9559]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'design_gpio_led_i/axi_gpio_0/gpio_io_o[6]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/.Xil/Vivado-12316-KAB-nb-t470p/dcp_3/design_gpio_led_axi_gpio_0_0.edf:9566]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'design_gpio_led_i/axi_gpio_0/gpio_io_o[7]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/.Xil/Vivado-12316-KAB-nb-t470p/dcp_3/design_gpio_led_axi_gpio_0_0.edf:9573]
+Parsing XDC File [c:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.srcs/sources_1/bd/design_gpio_led/ip/design_gpio_led_processing_system7_0_0/design_gpio_led_processing_system7_0_0.xdc] for cell 'design_gpio_led_i/processing_system7_0/inst'
+Finished Parsing XDC File [c:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.srcs/sources_1/bd/design_gpio_led/ip/design_gpio_led_processing_system7_0_0/design_gpio_led_processing_system7_0_0.xdc] for cell 'design_gpio_led_i/processing_system7_0/inst'
+Parsing XDC File [c:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.srcs/sources_1/bd/design_gpio_led/ip/design_gpio_led_axi_gpio_0_0/design_gpio_led_axi_gpio_0_0_board.xdc] for cell 'design_gpio_led_i/axi_gpio_0/U0'
+Finished Parsing XDC File [c:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.srcs/sources_1/bd/design_gpio_led/ip/design_gpio_led_axi_gpio_0_0/design_gpio_led_axi_gpio_0_0_board.xdc] for cell 'design_gpio_led_i/axi_gpio_0/U0'
+Parsing XDC File [c:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.srcs/sources_1/bd/design_gpio_led/ip/design_gpio_led_axi_gpio_0_0/design_gpio_led_axi_gpio_0_0.xdc] for cell 'design_gpio_led_i/axi_gpio_0/U0'
+Finished Parsing XDC File [c:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.srcs/sources_1/bd/design_gpio_led/ip/design_gpio_led_axi_gpio_0_0/design_gpio_led_axi_gpio_0_0.xdc] for cell 'design_gpio_led_i/axi_gpio_0/U0'
+Parsing XDC File [c:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.srcs/sources_1/bd/design_gpio_led/ip/design_gpio_led_rst_ps7_0_100M_0/design_gpio_led_rst_ps7_0_100M_0_board.xdc] for cell 'design_gpio_led_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.srcs/sources_1/bd/design_gpio_led/ip/design_gpio_led_rst_ps7_0_100M_0/design_gpio_led_rst_ps7_0_100M_0_board.xdc] for cell 'design_gpio_led_i/rst_ps7_0_100M/U0'
+Parsing XDC File [c:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.srcs/sources_1/bd/design_gpio_led/ip/design_gpio_led_rst_ps7_0_100M_0/design_gpio_led_rst_ps7_0_100M_0.xdc] for cell 'design_gpio_led_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.srcs/sources_1/bd/design_gpio_led/ip/design_gpio_led_rst_ps7_0_100M_0/design_gpio_led_rst_ps7_0_100M_0.xdc] for cell 'design_gpio_led_i/rst_ps7_0_100M/U0'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.srcs/sources_1/bd/design_gpio_led/ip/design_gpio_led_processing_system7_0_0/design_gpio_led_processing_system7_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.srcs/sources_1/bd/design_gpio_led/ip/design_gpio_led_axi_gpio_0_0/design_gpio_led_axi_gpio_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.srcs/sources_1/bd/design_gpio_led/ip/design_gpio_led_rst_ps7_0_100M_0/design_gpio_led_rst_ps7_0_100M_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.srcs/sources_1/bd/design_gpio_led/ip/design_gpio_led_auto_pc_0/design_gpio_led_auto_pc_0.dcp'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+link_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 544.664 ; gain = 298.711
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.424 . Memory (MB): peak = 554.844 ; gain = 10.180
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: 1971ab265
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1ff0439c8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.155 . Memory (MB): peak = 1037.727 ; gain = 0.004
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 71 cells.
+Phase 2 Constant propagation | Checksum: 10992f229
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.354 . Memory (MB): peak = 1037.727 ; gain = 0.004
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 217 unconnected nets.
+INFO: [Opt 31-11] Eliminated 278 unconnected cells.
+Phase 3 Sweep | Checksum: 11c2f5d79
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.760 . Memory (MB): peak = 1037.727 ; gain = 0.004
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-12] Eliminated 0 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 4 BUFG optimization | Checksum: 1afab2441
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1037.727 ; gain = 0.004
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1037.727 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1afab2441
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1037.727 ; gain = 0.004
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 1afab2441
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1037.727 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+30 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1037.727 ; gain = 493.063
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 1037.727 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/design_gpio_led_wrapper_opt.dcp' has been generated.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/design_gpio_led_wrapper_drc_opted.rpt.
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1037.727 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1037.727 ; gain = 0.000
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1499023d2
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1066.625 ; gain = 28.898
+
+Phase 1.2 Build Placer Netlist Model
+Phase 1.2 Build Placer Netlist Model | Checksum: 10084f201
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1066.625 ; gain = 28.898
+
+Phase 1.3 Constrain Clocks/Macros
+Phase 1.3 Constrain Clocks/Macros | Checksum: 10084f201
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1066.625 ; gain = 28.898
+Phase 1 Placer Initialization | Checksum: 10084f201
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1066.625 ; gain = 28.898
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 17577d236
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1066.625 ; gain = 28.898
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 17577d236
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1066.625 ; gain = 28.898
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 15f7438e0
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1066.625 ; gain = 28.898
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1a981d80f
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1066.625 ; gain = 28.898
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1a981d80f
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1066.625 ; gain = 28.898
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 1bf2139eb
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1066.625 ; gain = 28.898
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 1e19d6af2
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1066.625 ; gain = 28.898
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 155c9b535
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1066.625 ; gain = 28.898
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 155c9b535
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1066.625 ; gain = 28.898
+Phase 3 Detail Placement | Checksum: 155c9b535
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1066.625 ; gain = 28.898
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=3.810. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 20a268b5f
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1066.625 ; gain = 28.898
+Phase 4.1 Post Commit Optimization | Checksum: 20a268b5f
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1066.625 ; gain = 28.898
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 20a268b5f
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1066.625 ; gain = 28.898
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 20a268b5f
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1066.625 ; gain = 28.898
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 1e83e1909
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1066.625 ; gain = 28.898
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1e83e1909
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1066.625 ; gain = 28.898
+Ending Placer Task | Checksum: 13fe68d02
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1066.625 ; gain = 28.898
+INFO: [Common 17-83] Releasing license: Implementation
+46 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1066.625 ; gain = 28.898
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.182 . Memory (MB): peak = 1066.625 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/design_gpio_led_wrapper_placed.dcp' has been generated.
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.067 . Memory (MB): peak = 1066.625 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1066.625 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1066.625 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 71190c3d ConstDB: 0 ShapeSum: cecd80c5 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: fa1ad20e
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:26 . Memory (MB): peak = 1201.379 ; gain = 134.754
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: fa1ad20e
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:26 . Memory (MB): peak = 1201.379 ; gain = 134.754
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: fa1ad20e
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:26 . Memory (MB): peak = 1201.379 ; gain = 134.754
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: fa1ad20e
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:26 . Memory (MB): peak = 1201.379 ; gain = 134.754
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 1723663b5
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1209.453 ; gain = 142.828
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.791  | TNS=0.000  | WHS=-0.134 | THS=-15.356|
+
+Phase 2 Router Initialization | Checksum: 1b85c0b74
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1209.453 ; gain = 142.828
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 13c1be15f
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:26 . Memory (MB): peak = 1209.453 ; gain = 142.828
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 81
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 1626618e0
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:27 . Memory (MB): peak = 1209.453 ; gain = 142.828
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.480  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 19d488cbb
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:27 . Memory (MB): peak = 1209.453 ; gain = 142.828
+Phase 4 Rip-up And Reroute | Checksum: 19d488cbb
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:27 . Memory (MB): peak = 1209.453 ; gain = 142.828
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1463cb2bd
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:27 . Memory (MB): peak = 1209.453 ; gain = 142.828
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.595  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: 1463cb2bd
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:27 . Memory (MB): peak = 1209.453 ; gain = 142.828
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1463cb2bd
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:27 . Memory (MB): peak = 1209.453 ; gain = 142.828
+Phase 5 Delay and Skew Optimization | Checksum: 1463cb2bd
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:27 . Memory (MB): peak = 1209.453 ; gain = 142.828
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1b875f61f
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:27 . Memory (MB): peak = 1209.453 ; gain = 142.828
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.595  | TNS=0.000  | WHS=0.102  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1de569940
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:27 . Memory (MB): peak = 1209.453 ; gain = 142.828
+Phase 6 Post Hold Fix | Checksum: 1de569940
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:27 . Memory (MB): peak = 1209.453 ; gain = 142.828
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.154914 %
+  Global Horizontal Routing Utilization  = 0.230054 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 191ea586b
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:27 . Memory (MB): peak = 1209.453 ; gain = 142.828
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 191ea586b
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:27 . Memory (MB): peak = 1209.453 ; gain = 142.828
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 22ef6eb82
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 1209.453 ; gain = 142.828
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=3.595  | TNS=0.000  | WHS=0.102  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 22ef6eb82
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 1209.453 ; gain = 142.828
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 1209.453 ; gain = 142.828
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+60 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:28 . Memory (MB): peak = 1209.453 ; gain = 142.828
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.210 . Memory (MB): peak = 1209.453 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/design_gpio_led_wrapper_routed.dcp' has been generated.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/design_gpio_led_wrapper_drc_routed.rpt.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/design_gpio_led_wrapper_methodology_drc_routed.rpt.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Command: report_power -file design_gpio_led_wrapper_power_routed.rpt -pb design_gpio_led_wrapper_power_summary_routed.pb -rpx design_gpio_led_wrapper_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+70 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+Command: write_bitstream -force -no_partial_bitfile design_gpio_led_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado 12-3199] DRC finished with 0 Errors
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./design_gpio_led_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] 'C:/Users/kab/Desktop/workspace/Zedboard_GPIO_LED/Zedboard_GPIO_LED.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Wed Oct 11 15:41:35 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+78 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1580.375 ; gain = 357.168
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 11 15:41:35 2017...
